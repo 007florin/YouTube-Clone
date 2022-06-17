@@ -7,16 +7,20 @@
 </head>
 <body style="padding-bottom: 2000px;">
 	<style>
-		.video-body {
+		/* .video-body {
 			margin-top: 30px;
 			margin-left: 180px;
       		display: grid;
-      		grid-template-columns: 1fr 1fr 1fr 1fr;
+      		grid-template-columns: 600px 1fr;
       		column-gap: 20px;
       		row-gap: 80px;
 			padding-top: 100px;
 			padding-left: 10px;
-		}
+			object-fit: contain;
+
+			
+		} */
+
 		.left-guide {
 			position: fixed;
 			left: 0;
@@ -28,6 +32,7 @@
 			padding-left: 5px;
 
 		}
+
 		.menu-top {
 			position: fixed;
 			top: 0;
@@ -42,13 +47,16 @@
 		.search-bar {
 			background-color: white;
 			color: red;
+			font-size: 20px;
 		}
+
 		.sub-button {
 			height: 25px;
 			width: 80px;
 			align-self: center;
 			size: 2cm;
 		}
+
 		.filter-bar {
 			position: fixed;
 			top: 0;
@@ -58,11 +66,50 @@
 			width: 100%;
 			left: 0;
 		}
+
 		.copyright {
 			position: fixed;
 			bottom: 0;
 			text-align: center;
 			padding-left: 20px;
+		}
+
+		* {
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		.box-1 {
+			height: 450px;
+			width: 550px;
+			border: 2px;
+			border-style: solid;
+			border-color: red;
+				
+		}
+
+		.video-1 {
+			width: 550px;
+			height: 310px;
+			object-fit: contain;
+			object-position: top;
+			border-style: solid;
+			border-color: red;
+			margin-left: 200px;
+			margin-top: 130px;
+			display: block;
+
+		}
+		.video-title {
+			display: block;
+			margin-left: 200px;
+		}
+		.video-autor {
+			display: block;
+			margin-left: 200px;
+		}
+		.video-stats {
+			display: block;
+			margin-left: 200px;
 		}
 	</style>
 	<div class="menu-top">
@@ -104,15 +151,22 @@
 		</div>
 	</div>
 	<div class="video-body">
-		<img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
-		<img src="https://i.ibb.co/zrphVLr/hq720-1.webp">
-		<img src="https://i.ibb.co/JF16y5x/hq720-2.webp">
-		<img src="https://i.ibb.co/RgNCnqZ/hq720-4.webp">
-		<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp">
-		<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp">
+		<img class="video-1" src="https://i.ibb.co/QJm0HBJ/hq720.webp">
+		<p class="video-title"><strong>Becky G, Natti Natasha - Sin Pijama (Official Video)</strong></p>	
+		<p class="video-autor">Becky G</p>
+		<p class="video-stats">2B views . 4 years ago</p>
 	</div>
-	<div class="global">
+	<div>
 	</div>
 </body>
 </html>
+
+
+<!-- <img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
+<img src="https://i.ibb.co/zrphVLr/hq720-1.webp">
+<img src="https://i.ibb.co/JF16y5x/hq720-2.webp">
+<img src="https://i.ibb.co/RgNCnqZ/hq720-4.webp">
+<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp">
+<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp"> -->
+
 
