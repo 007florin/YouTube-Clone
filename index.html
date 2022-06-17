@@ -15,24 +15,70 @@
 
 		.video-body {
 			margin-top: 30px;
+			margin-left: 180px;
       		display: grid;
-      		grid-template-columns: 1fr 1fr 1fr;
+      		grid-template-columns: 1fr 1fr 1fr 1fr;
       		column-gap: 20px;
-      		row-gap: 40px;
+      		row-gap: 80px;
+		}
+		.left-guide {
+			position: fixed;
+			left: 0;
+			height: 100%;
+			width: 180px;
+			background-color: slategray;
+			color: white;
+		}
+		.menu-top {
+			position: fixed;
+			top: 0;
+			display: grid;
+			grid-template-columns: 250px 1fr 1fr 1fr 1fr 1fr 1fr;
+			column-gap: 10px;
+			background-color: cadetblue;
+			height: 56px;
+			width: 100%;
+
 		}
 	</style>
 	<div class="header">
 		<h1>YouTube.com Clone</h1>
+	</div>
+	<div class="menu-top">
+		<p>Top Menu</p>
+		<p>YouTube Logo</p>
+		<p>Top Menu</p>
+	</div>
+	<div class="left-guide">
+		<p>Guide Section</p>
+		<p>Home</p>
+		<p>Explore</p>
+		<p>Shorts</p>
+		<p>Subscriptions</p>
+		<p>Library</p>
+		<p>History</p>
+		<p>Your Videos</p>
+		<p>Your Movies</p>
+		<p>Watch Later</p>
+		<p>Subscriptions: </p>
+			<ol>
+				<li>Sub 1</li>
+				<li>Sub 2</li>
+				<li>Sub 3</li>
+				<li>Sub 4</li>
+			</ol>
+		<p>MORE FROM YOUTUBE</p>
 	</div>
 	<div class="video-body">
 		<img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
 		<img src="https://i.ibb.co/zrphVLr/hq720-1.webp">
 		<img src="https://i.ibb.co/JF16y5x/hq720-2.webp">
 		<img src="https://i.ibb.co/RgNCnqZ/hq720-4.webp">
-		<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp" alt="">
-		<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp" alt="">
+		<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp">
+		<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp">
 	</div>
 	<div class="global">
 	</div>
 </body>
 </html>
+
