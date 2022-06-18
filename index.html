@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>YouTube.com Clone</title>
 </head>
 <body>
 	<style>
+		p {
+			font-family: Roboto, Arial;
+		}
 		.video-body {
 			display: inline-block;
 			margin-left: 10px;
@@ -21,50 +27,89 @@
 			display: block;
 			margin-bottom: 10px;
 		}
+		.channel-picture {
+			display: inline-block;
+			width: 50px;
+			vertical-align: top;
+		}
+		.video-info {
+			display: inline-block;
+			width: 200px;
+		}
+
+		.profile-picture {
+			width: 40px;
+			border-radius: 50px;
+		}
+
+		.video-title {
+			margin-top: 0;
+		}
+
+		.thumbnail-row {
+			margin-bottom: 15px;
+		}
 
 	</style>
 	<input class="search-bar" type="text" placeholder="Search">
 	<div class="video-body">
-		<img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
-		<p class="video-title"><strong>Becky G, Natti Natasha - Sin Pijama (Official Video)</strong></p>	
-		<p class="video-autor">Becky G</p>
-		<p class="video-stats">2B views . 4 years ago</p>
+		<div class="thumbnail-row">
+			<img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
+		</div>
+		<div>
+			<div>
+				<div class="channel-picture">
+					<img class="profile-picture" src="channel-pictures/Becky G.jpg" alt="">
+				</div>
+				<div class="video-info">
+					<p class="video-title"><strong>Becky G, Natti Natasha - Sin Pijama (Official Video)</strong></p>	
+					<p class="video-autor">Becky G</p>
+					<p class="video-stats">2B views &#183 4 years ago</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
-	<div class="video-body-2">
+	<!-- <div class="video-body-2">
 		<img src="https://i.ibb.co/JF16y5x/hq720-2.webp">
 		<p class="video-title"><strong>Iggy Azalea x Cardi B x Megan Thee Stallion x Nicki Minaj x Lizzo* - Respect (Mashup)</strong></p>	
 		<p class="video-autor">Raheem D</p>
-		<p class="video-stats">15M views . 2 years ago</p>
+		<p class="video-stats">15M views &#183 2 years ago</p>
 	</div>
 
 	<div class="video-body-2">
 		<img src="https://i.ibb.co/zrphVLr/hq720-1.webp">
 		<p class="video-title"><strong>Iggy Azalea x Cardi B x Nicki Minaj - Started To Make It Hot (Mashup)</strong></p>	
 		<p class="video-autor">Raheem D</p>
-		<p class="video-stats">26M views . 2 years ago</p>
+		<p class="video-stats">26M views &#183 2 years ago</p>
 	</div>
 
 	<div class="video-body-2">
 		<img src="https://i.ibb.co/RgNCnqZ/hq720-4.webp">
 		<p class="video-title"><strong>Hack like Mr Robot // WiFi, Bluetooth and Scada hacking</strong></p>	
 		<p class="video-autor">David Bombal</p>
-		<p class="video-stats">241k views . 13 days ago</p>
+		<p class="video-stats">241k views &#183 13 days ago</p>
 	</div>
 
 	<div class="video-body-2">
 		<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp">
 		<p class="video-title"><strong>M.2 NVMe SSD Explained - M.2 vs SSD</strong></p>	
 		<p class="video-autor">PowerCert Animated Videos</p>
-		<p class="video-stats">2.8M views . 3 years ago</p>
+		<p class="video-stats">2.8M views &#183 3 years ago</p>
 	</div>
 
 	<div class="video-body-2">
 		<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp">
 		<p class="video-title"><strong>Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks</strong></p>	
 		<p class="video-autor">freeCodeCamp.org</p>
-		<p class="video-stats">1.9M views . 1 year ago</p>
-	</div>
+		<p class="video-stats">1.9M views &#183 1 year ago</p>
+	</div> -->
 
 </body>
 </html>
+
+<!-- <img id="img" class="style-scope yt-img-shadow" alt="" width="48" src="https://yt3.ggpht.com/ytc/AKedOLTlgmXSIuov3oTfIS78TJqexzNop7cLMMyeAD3PXGI=s68-c-k-c0x00ffffff-no-rj">
+<img id="img" class="style-scope yt-img-shadow" alt="" width="48" src="https://yt3.ggpht.com/PK_yeWnFEApx1Zf25Wkuu9FjAt2aqTw0LPro9JMxxdZt0pL2a2CI2r4DpULX5kQCmOeVxg_HElM=s88-c-k-c0x00ffffff-no-rj">
+<img id="img" class="style-scope yt-img-shadow" alt="" width="48" src="https://yt3.ggpht.com/ytc/AKedOLRhwNZCszdNIave6ukHo3xv4fMR2zdW1Fl_TS8Lcg=s68-c-k-c0x00ffffff-no-rj">
+<img id="img" class="style-scope yt-img-shadow" alt="" width="48" src="https://yt3.ggpht.com/ytc/AKedOLRR2uNiXJiFH-XRmtGgkdICxTuDJxCPJidKFRNCNg=s68-c-k-c0x00ffffff-no-rj">
+<img id="img" class="style-scope yt-img-shadow" alt="" width="48" src="https://yt3.ggpht.com/dAQboxu0NGYduhzG7F-J3ggKp0GjDQg5cQ9CSrcMlO5UbcNgZ0IaDJuKNnFQkAn9NfEEjY9O=s68-c-k-c0x00ffffff-no-rj"> -->
