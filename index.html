@@ -5,168 +5,66 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>YouTube.com Clone</title>
 </head>
-<body style="padding-bottom: 2000px;">
+<body>
 	<style>
-		/* .video-body {
-			margin-top: 30px;
-			margin-left: 180px;
-      		display: grid;
-      		grid-template-columns: 600px 1fr;
-      		column-gap: 20px;
-      		row-gap: 80px;
-			padding-top: 100px;
-			padding-left: 10px;
-			object-fit: contain;
-
-			
-		} */
-
-		.left-guide {
-			position: fixed;
-			left: 0;
-			height: 100%;
-			width: 180px;
-			background-color: slategray;
-			color: white;
-			top: 110px;
-			padding-left: 5px;
-
+		.video-body {
+			display: inline-block;
+			margin-left: 10px;
 		}
-
-		.menu-top {
-			position: fixed;
-			top: 0;
-			left: 0;
-			display: grid;
-			grid-template-columns: 250px 1fr 1fr 1fr 1fr 1fr 1fr;
-			column-gap: 10px;
-			background-color: cadetblue;
-			height: 56px;
-			width: 100%;
+		.video-body-2 {
+			display: inline-block;
+			margin-left: 10px;
 		}
 		.search-bar {
-			background-color: white;
-			color: red;
 			font-size: 20px;
-		}
-
-		.sub-button {
-			height: 25px;
-			width: 80px;
-			align-self: center;
-			size: 2cm;
-		}
-
-		.filter-bar {
-			position: fixed;
-			top: 0;
-			margin-top: 56px;
-			background-color: darksalmon;
-			height: 56px;
-			width: 100%;
-			left: 0;
-		}
-
-		.copyright {
-			position: fixed;
-			bottom: 0;
-			text-align: center;
-			padding-left: 20px;
-		}
-
-		* {
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
-		.box-1 {
-			height: 450px;
-			width: 550px;
-			border: 2px;
-			border-style: solid;
-			border-color: red;
-				
-		}
-
-		.video-1 {
-			width: 550px;
-			height: 310px;
-			object-fit: contain;
-			object-position: top;
-			border-style: solid;
-			border-color: red;
-			margin-left: 200px;
-			margin-top: 130px;
+			margin-left: 10px;
 			display: block;
+			margin-bottom: 10px;
+		}
 
-		}
-		.video-title {
-			display: block;
-			margin-left: 200px;
-		}
-		.video-autor {
-			display: block;
-			margin-left: 200px;
-		}
-		.video-stats {
-			display: block;
-			margin-left: 200px;
-		}
 	</style>
-	<div class="menu-top">
-		<p>YouTube Logo</p>
-		<input class="search-bar" type="text" placeholder="Search..">
-		<button class="sub-button">Submit</button>
-		<p>Notifications</p>
-		<p style="
-		position: fixed;
-		right: 0;
-		margin-right: 10px;
-		">Account</p>
-	</div>
-	<div class="filter-bar">
-		<p>This will be the filters bar</p>
-	</div>
-	<div class="left-guide">
-		<p>Guide Section</p>
-		<p>Home</p>
-		<p>Explore</p>
-		<p>Shorts</p>
-		<p>Subscriptions</p>
-		<p>Library</p>
-		<p>History</p>
-		<p>Your Videos</p>
-		<p>Your Movies</p>
-		<p>Watch Later</p>
-		<p>Subscriptions: </p>
-			<ol>
-				<li>Sub 1</li>
-				<li>Sub 2</li>
-				<li>Sub 3</li>
-				<li>Sub 4</li>
-			</ol>
-		<p>MORE FROM YOUTUBE</p>
-		<div class="copyright">
-			<p>Copyright YouTube</p>
-			<p>2022</p>
-		</div>
-	</div>
+	<input class="search-bar" type="text" placeholder="Search">
 	<div class="video-body">
-		<img class="video-1" src="https://i.ibb.co/QJm0HBJ/hq720.webp">
+		<img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
 		<p class="video-title"><strong>Becky G, Natti Natasha - Sin Pijama (Official Video)</strong></p>	
 		<p class="video-autor">Becky G</p>
 		<p class="video-stats">2B views . 4 years ago</p>
 	</div>
-	<div>
+
+	<div class="video-body-2">
+		<img src="https://i.ibb.co/JF16y5x/hq720-2.webp">
+		<p class="video-title"><strong>Iggy Azalea x Cardi B x Megan Thee Stallion x Nicki Minaj x Lizzo* - Respect (Mashup)</strong></p>	
+		<p class="video-autor">Raheem D</p>
+		<p class="video-stats">15M views . 2 years ago</p>
 	</div>
+
+	<div class="video-body-2">
+		<img src="https://i.ibb.co/zrphVLr/hq720-1.webp">
+		<p class="video-title"><strong>Iggy Azalea x Cardi B x Nicki Minaj - Started To Make It Hot (Mashup)</strong></p>	
+		<p class="video-autor">Raheem D</p>
+		<p class="video-stats">26M views . 2 years ago</p>
+	</div>
+
+	<div class="video-body-2">
+		<img src="https://i.ibb.co/RgNCnqZ/hq720-4.webp">
+		<p class="video-title"><strong>Hack like Mr Robot // WiFi, Bluetooth and Scada hacking</strong></p>	
+		<p class="video-autor">David Bombal</p>
+		<p class="video-stats">241k views . 13 days ago</p>
+	</div>
+
+	<div class="video-body-2">
+		<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp">
+		<p class="video-title"><strong>M.2 NVMe SSD Explained - M.2 vs SSD</strong></p>	
+		<p class="video-autor">PowerCert Animated Videos</p>
+		<p class="video-stats">2.8M views . 3 years ago</p>
+	</div>
+
+	<div class="video-body-2">
+		<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp">
+		<p class="video-title"><strong>Full React Course 2020 - Learn Fundamentals, Hooks, Context API, React Router, Custom Hooks</strong></p>	
+		<p class="video-autor">freeCodeCamp.org</p>
+		<p class="video-stats">1.9M views . 1 year ago</p>
+	</div>
+
 </body>
 </html>
-
-
-<!-- <img src="https://i.ibb.co/QJm0HBJ/hq720.webp">
-<img src="https://i.ibb.co/zrphVLr/hq720-1.webp">
-<img src="https://i.ibb.co/JF16y5x/hq720-2.webp">
-<img src="https://i.ibb.co/RgNCnqZ/hq720-4.webp">
-<img src="https://i.ibb.co/6v7HBnZ/hq720-3.webp">
-<img src="https://i.ibb.co/Bf5pDCM/hq720-5.webp"> -->
-
-
